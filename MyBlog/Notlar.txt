@@ -1,0 +1,9 @@
+Haftasonu Ödev...
+1 - Carousel için Fotoðraf eklenmesi gerekiyor.. Bunun için ilgili Entity Classlarý oluþturulacak.
+	- Manager Sýnýfý oluþturulacak.
+	- Create, Update Delete ilgili ilgili Actionlar ve Viewler tasarlanacak.
+	- Carousel, component yapýsýnda oluþturulacak.(Týpký Category gibi..) Indeks sayfasýna eklenecek..
+
+ 2 - AdminBlogUser Controller...
+
+	

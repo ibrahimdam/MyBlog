@@ -1,0 +1,30 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "Geçersiz Hesap";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <div class="bg-danger text-white p-3 mb-2 rounded-top">
+                <h3 class="text-center">Yönlendiriliyorsunuz...</h3>
+            </div>
+            <div>
+                <h3 class="text-center"> Geçersiz Hesap </h3>
+                <p>
+                    @foreach (var item in Model)
+                    {
+                        item.ToString(); <br />
+                    }
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    setTimeout(function () {
+        window.location = "/Home/Index";
+    }, 5000);
+</script>

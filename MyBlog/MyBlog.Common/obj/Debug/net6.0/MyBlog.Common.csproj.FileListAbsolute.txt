@@ -1,0 +1,24 @@
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.deps.json
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.csproj.AssemblyReference.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.AssemblyInfoInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.AssemblyInfo.cs
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.csproj.CoreCompileInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\refint\MyBlog.Common.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Common\obj\Debug\net6.0\ref\MyBlog.Common.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.deps.json
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\bin\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.csproj.AssemblyReference.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.AssemblyInfoInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.AssemblyInfo.cs
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\refint\MyBlog.Common.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Common\obj\Debug\net6.0\ref\MyBlog.Common.dll

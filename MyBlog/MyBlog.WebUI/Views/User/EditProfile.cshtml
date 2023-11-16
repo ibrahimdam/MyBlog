@@ -1,0 +1,68 @@
+﻿@model BlogUser
+
+<div class="container">
+    <div class="row">
+        <h2>Profil Güncelle</h2>
+        <hr />
+    </div>
+    <form asp-action="EditProfile" asp-controller="User" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="row">
+            <div class="col-3">
+                <input type="hidden" value="@Model.Id" name="Id" />
+                <input type="hidden" value="@Model.ActivateGuid" name="ActivateGuid" />
+                <input type="hidden" value="@Model.ModifiedUserName" name="ModifiedUserName" />
+                <input type="hidden" value="@Model.CreatedDate" name="CreatedDate" />
+
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <input type="hidden" asp-for="UserProfileImage" />
+                        <img src="~/images/@Model.UserProfileImage" class="rounded-circle" width="150px" height="150px"/>
+                        <br /><br />
+                        <input type="file" name="file" />
+                        <span> <i> Lütfen jpg, jpeg ya da png formatı kullanın</i> </span>
+                        <br />
+                        <button type="submit" class="btn btn-primary btn-sm">Güncelle</button>
+                        &ensp;&ensp;&ensp;&ensp;
+                        <a href="/User/ShowProfile" class="btn btn-warning btn-sm">İptal</a>
+                        &ensp;&ensp;&ensp;&ensp;
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-floating mb-3">
+                    <input asp-for="Name" type="text" class="form-control" placeholder="Adınız"/>
+                    <label asp-for="Name">Adınız</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Surname" type="text" class="form-control" placeholder="Soyadınız" />
+                    <label asp-for="Surname">Soyadınız</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" type="email" class="form-control" placeholder="E-Postanız" />
+                    <label asp-for="Email">E-Postanız</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="UserName" type="text" class="form-control" placeholder="Kullanıcı Adınız" />
+                    <label asp-for="UserName">Kullanıcı Adınız</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Şifreniz" value="@Model.Password"/>
+                    <label asp-for="Password">Şifreniz</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input asp-for="IsActive" type="checkbox" class="custom-control-input" />
+                    <label asp-for="IsActive"></label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input asp-for="IsAdmin" type="checkbox" class="custom-control-input" />
+                    <label asp-for="IsAdmin"></label>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+                     

@@ -1,0 +1,27 @@
+﻿@model Note
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>@Model.Title</h3>
+    </div>
+    <div class="col-md-12">
+        <hr />
+    </div>
+    <div class="col-md-12 d-flex justify-content-between">
+        <p>
+            <i class="bi bi-person-fill"></i> @Model.ModifiedUserName
+        </p>
+        <p>
+            <i class="bi bi-alarm-fill"></i> @Model.ModifiedDate
+        </p>
+
+    </div>
+    <div class="col-md-12">
+        <hr />
+    </div>
+    <div class="col-md-12">
+        <p class="text-justify">
+            @Model.Text
+        </p>
+    </div>
+</div>

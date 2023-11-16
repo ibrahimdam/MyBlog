@@ -1,0 +1,34 @@
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.deps.json
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.runtimeconfig.json
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfo.cs
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.CopyComplete
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\refint\MyBlog.DataAccessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.genruntimeconfig.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\ref\MyBlog.DataAccessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.deps.json
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.runtimeconfig.json
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfo.cs
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.CopyComplete
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\refint\MyBlog.DataAccessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.genruntimeconfig.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\ref\MyBlog.DataAccessLayer.dll

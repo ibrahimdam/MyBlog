@@ -1,0 +1,56 @@
+﻿@model MyBlog.Entities.Concrete.Category
+
+@{
+    ViewData["Title"] = "Kategori Güncelle";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-6">
+
+            <h1>Güncelle</h1>
+
+            <h4>Kategoriler</h4>
+            <hr />
+            <div class="row">
+                <div >
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Description" class="control-label"></label>
+                            <input asp-for="Description" class="form-control" />
+                            
+                        </div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <label asp-for="CreatedDate" class="control-label"></label>
+                            <input asp-for="CreatedDate" class="form-control" />
+                            
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ModifiedDate" class="control-label"></label>
+                            <input asp-for="ModifiedDate" class="form-control" />
+                            
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ModifiedUserName" class="control-label"></label>
+                            <input asp-for="ModifiedUserName" class="form-control" />                            
+                        </div>
+                        
+                        <div class="form-group mt-3">
+                            <input type="submit" value="Güncelle" class="btn btn-primary btn-sm" />
+                            &nbsp;&nbsp;&nbsp;
+                            <a asp-action="Index" class="btn btn-primary btn-sm">Tüm Kategoriler</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

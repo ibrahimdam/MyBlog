@@ -1,0 +1,43 @@
+﻿@model MyBlog.Entities.Concrete.Category
+
+@{
+    ViewData["Title"] = "Yeni Kayıt";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+
+        <div class="col-6">
+            <h1>Yeni Kayıt</h1>
+
+            <h4>Kategori</h4>
+            <hr />
+            <div class="row ">
+                <div>
+                    <form asp-action="Create">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+@*                        <input type="hidden" name="ModifiedUserName" />
+*@
+                        <div class="form-floating mb-3">
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Kategori Adı" />
+                            <label asp-for="Name">Kategori Adı</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Description" type="text" class="form-control" placeholder="Açıklama" />
+                            <label asp-for="Description">Açıklama</label>
+                        </div>
+                        @*<div class="form-floating mb-3">
+                            <input asp-for="ModifiedUserName" type="text" class="form-control" placeholder="ModifiedUserName" />
+                            <label asp-for="ModifiedUserName">ModifiedUserName</label>
+                        </div>*@
+                        <div class="form-group">
+                            <input type="submit" value="Kaydet " class="btn btn-primary btn-sm" />
+                            &nbsp;&nbsp;&nbsp;
+                            <a asp-action="Index" class="btn btn-primary btn-sm">Tüm Kategoriler</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

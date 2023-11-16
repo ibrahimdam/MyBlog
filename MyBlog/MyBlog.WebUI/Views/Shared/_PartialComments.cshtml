@@ -1,0 +1,56 @@
+﻿@model List<Comment>
+
+@{
+    BlogUser user = CurrentSession.CurrentUser;
+
+}
+
+
+
+@*Media object ile her bir yorumu modal içerisine yazdıracağız.*@
+@foreach (Comment comment in Model)
+{
+    <div class="d-flex">
+        <div class="flex-shrink-0">
+            <img src="~/images/@comment.BlogUser.UserProfileImage" alt="..." width="35px" height="35px" class="rounded-circle">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            <div class="row">
+                <div class="col-9">
+                    <span id="comment_text_@comment.Id" contenteditable="false" >
+                        @comment.Text
+                    </span>
+                </div>
+                <div class="col-3">
+                    @if (user != null && user.Id == comment.BlogUser.Id)
+                    {
+                        <span>
+                            <button type="button" class="btn btn-warning btn-sm" data-edit-mode="false" onclick="doComment(this, 'edit_clicked', @comment.Id, '#comment_text_@comment.Id')"> <i class="bi bi-pencil"></i> </button>
+
+                            <button type="button" class="btn btn-danger btn-sm" onclick="doComment(this, 'delete_clicked', @comment.Id, null)"> <i class="bi bi-trash3-fill"></i> </button>
+                        </span>
+                    }
+
+                </div>
+            </div>
+
+            <div class="row">
+                <span>
+                    <small> @comment.ModifiedDate - @comment.BlogUser.UserName</small>
+                </span>
+            </div>
+
+
+
+        </div>
+    </div>
+    <hr />
+}
+
+@if (user != null)
+{
+    <div class="input-group mb-3">
+        <input type="text" id="new_comment_text" class="form-control" placeholder="Yorumunuz.." aria-label="Yorumunuz" aria-describedby="button-addon2">
+        <button class="btn btn-success" type="button" id="button-addon2" onclick="doComment(this, 'new_clicked', -1, null)"> <i class="bi bi-send-fill"></i> Gönder </button>
+    </div>
+}

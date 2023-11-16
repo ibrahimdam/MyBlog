@@ -1,0 +1,57 @@
+﻿@model RegisterViewModel
+@{
+    ViewBag.Title = "MyBlog - Kayıt Sayfası";
+}
+
+@*HtmlHelper metodu (Html.BeginForm())) kullanarak form tag'ini oluşturuyorum..*@
+@using (Html.BeginForm())
+{
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-5 border">
+                <div class="bg-primary p-3 mb-2 rounded-top">
+                    <h3>Register</h3>
+                </div>
+
+                @Html.ValidationSummary(false)
+
+
+                <!-- Kullanıcı adı için input-->
+                <div class="input-group mb-4">
+                    <i class="bi bi-person-circle"></i>&emsp;
+                    @Html.TextBoxFor(model=> model.UserName, new {@class="form-control", @placeholder="Kullanıcı Adı"})
+
+                </div>
+
+                <!-- Email için input-->
+                <div class="input-group mb-4">
+                    <i class="bi bi-envelope-at"></i>&emsp;
+                    @Html.TextBoxFor(model=> model.Email, new {@class="form-control", @placeholder="E-Postanızı giriniz"})
+
+                </div>
+
+
+
+                <!-- Password için input-->
+                <div class="input-group mb-4">
+                    <i class="bi bi-lock-fill"></i> &emsp;
+                    @Html.TextBoxFor(model=> model.Password, new { @type="password", @class="form-control", @placeholder="Şifreniz"})
+                </div>
+                <!-- RePassword için input-->
+                <div class="input-group mb-4">
+                    <i class="bi bi-lock-fill"></i> &emsp;
+                    @Html.TextBoxFor(model=> model.RePassword, new { @type="password", @class="form-control", @placeholder="Şifreniz(Tekrar)"})
+                </div>
+
+                <!-- button(submit) için input-->
+                <div class="d-grid gap-2 mb-2">
+                    <button type="submit" class="btn btn-danger rounded-1">Giriş</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+}

@@ -1,0 +1,38 @@
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.deps.json
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfo.cs
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\refint\MyBlog.BusinessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\ref\MyBlog.BusinessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.CopyComplete
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Common.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.deps.json
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Common.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Common.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfo.cs
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.CopyComplete
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\refint\MyBlog.BusinessLayer.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\ref\MyBlog.BusinessLayer.dll

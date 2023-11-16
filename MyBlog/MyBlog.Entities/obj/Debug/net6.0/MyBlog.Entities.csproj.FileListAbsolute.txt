@@ -1,0 +1,24 @@
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.deps.json
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.AssemblyInfo.cs
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\refint\MyBlog.Entities.dll
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\203A-EGTMN\source\repos\MyBlog\MyBlog.Entities\obj\Debug\net6.0\ref\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.deps.json
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\bin\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.AssemblyInfo.cs
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\refint\MyBlog.Entities.dll
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\MyBlog.Entities.pdb
+C:\Users\ibrahim\OneDrive\Masaüstü\MyBlog\10 Mayıs 2023\MyBlog\MyBlog.Entities\obj\Debug\net6.0\ref\MyBlog.Entities.dll

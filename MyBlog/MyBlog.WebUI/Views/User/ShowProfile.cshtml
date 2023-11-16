@@ -1,0 +1,47 @@
+﻿@model BlogUser
+
+<div class="container">
+    <div class="row">
+        <h2>Profiliniz</h2>
+        <hr />
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <img src="~/images/@Model.UserProfileImage" class="rounded-circle" width="150px" height="150px"/>
+            <br /><br /><br />
+        </div>
+        <div class="col-9">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>@(Model.Name + " " + Model.Surname)</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"> <b>Kullanıcı Adı</b> </div>
+                    <div class="col-6"> @Model.UserName </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"> <b>E-posta</b> </div>
+                    <div class="col-6"> @Model.Email </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"> <b>Yönetici mi?</b> </div>
+                    <div class="col-6"> @(Model.IsAdmin? "Evet":"Hayır")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <a type="button" asp-action="EditProfile" asp-controller="User" class="btn btn-warning btn-sm">Düzenle</a>
+            &ensp;&ensp;
+            <a type="button" href="/user/DeleteProfile/@Model.Id" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?');">&ensp;&ensp;Sil&ensp;&ensp; </a>
+            <br />
+        </div>
+
+    </div>
+
+
+</div>
+

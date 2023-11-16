@@ -1,0 +1,142 @@
+﻿@using System.Text.Json
+@inject IHttpContextAccessor Accessor
+@{
+    BlogUser user = null;
+    if (Accessor.HttpContext.Session.GetString("currentUser") != null)
+    {
+        string userJson = Accessor.HttpContext.Session.GetString("currentUser");
+        user = JsonSerializer.Deserialize<BlogUser>(userJson);
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyBlog.WebUI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyBlog.WebUI.styles.css" asp-append-version="true" />
+    <link href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 ps-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyBlog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (user!=null)
+                        {
+                            @*<li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-building-fill"></i> Yönetim</a>
+                            </li>*@
+                       
+                            @*Yönetim için DropDownList oluşturacağız.*@
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-building-fill"></i>
+                                     Yönetim
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/Note/Create"><i class="bi bi-plus-circle-fill"></i> Not Ekle</a></li>
+                                    <li><a class="dropdown-item" href="/Note/Index"><i class="bi bi-journals"></i> Notlarım</a></li>
+                                    <li><a class="dropdown-item" href="/Note/MyLikedNotes"><i class="bi bi-heart-fill text-danger"></i> Beğendiklerim</a></li>
+                                    @if (user.IsAdmin)
+                                    {
+                                        @*Kategori Linkleri*@
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="/Category/Index"><i class="bi bi-bookmarks"></i>  Kategoriler</a></li>
+                                        <li><a class="dropdown-item" href="/Category/Create"><i class="bi bi-plus-circle-dotted"></i> Kategori Ekle</a></li>
+                                        @*User/Kullanıcı işlemleri için Linkler*@
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="/BlogUsers/Index"><i class="bi bi-bookmarks"></i>  Kullanıcılar</a></li>
+                                        <li><a class="dropdown-item" href="/BlogUsers/AddUser"><i class="bi bi-plus-circle-dotted"></i> Kullanıcı Ekle</a></li>
+                                    }
+                                    
+
+
+
+                                </ul>
+                            </li>
+
+
+
+                        }
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="MostLiked"><i class="bi bi-heart-fill text-danger"></i> En Beğenilenler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-pencil-square"></i> Son Yazılanlar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About"><i class="bi bi-info-lg"></i> Hakkımızda</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav me-3">
+                        @if (user==null)
+                        {
+                             <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Login"><i class="bi bi-door-open-fill"></i> Giriş</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Register"><i class="bi bi-person-fill-add"></i> Üye Ol</a>
+                            </li>
+                        }else
+                        {
+                             @*<li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="ShowProfile"><i class="bi bi-person-fill"></i> @user.UserName</a>
+                        </li>*@
+
+                        @*Kullanıcı Profili için Dropdown *@
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+@*                                    <i class="bi bi-person-fill"></i>
+*@                                    <img src="~/images/@user.UserProfileImage" width="30px" height="30px" class="rounded-circle"/> 
+                                    @user.UserName
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/User/ShowProfile"><i class="bi bi-person-circle"></i> Profilim</a></li>
+                                    <li><a class="dropdown-item" href="/User/EditProfile"><i class="bi bi-person-fill-gear"></i>  Güncelle</a></li>
+                                    <li><a class="dropdown-item" href="/User/DeleteProfile/@user.Id" onclick="return confirm('Silmek istediğinize emin misiniz?');"><i class="bi bi-person-x-fill"></i> Profilimi Sil</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="/Home/Logout"><i class="bi bi-door-closed-fill"></i> Çıkış</a></li>
+                                </ul>
+                            </li>
+                        }
+
+                       
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Yazıların paylaşıldığı bölüm-->
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer class="border-top bg-dark footer text-muted">
+        <div class="container">
+            &copy; 2023 - MyBlog.WebUI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+@*https://codeshare.io/eV7oXl*@
